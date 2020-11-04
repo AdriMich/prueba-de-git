@@ -1,0 +1,99 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html, body{
+	font-family: 'Raleway', sans-serif;
+}
+
+.encabezado{
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	color: #000000;
+	
+
+	}
+
+.enlaces{
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	background-color: #E7DBEE;
+	height: 30px;
+
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+	margin-right: 10px;
+	margin-left: 10px;
+
+}
+
+.enlaces a:before,
+.enlaces a:after{
+	display: inline-block;
+	opacity: 0;
+	transition: transform 0.3s, opacity a.2s;
+
+}
+
+.enlaces a::before{
+	margin-right: 10px;
+	content: '[';
+	transform: translateX(20px);
+}
+
+.enlaces a::after{
+	margin-left: 10px;
+	content: ']';
+	transform: translateX(-20px);
+}
+
+.enlaces a:hover::before,
+.enlaces a:hover::after,
+.enlaces a:focus::before,
+.enlaces a:focus::after{
+	opacity: 1;
+	transform: translateX(0px);
+}
+
+
+.contacto{
+	width: 100%;
+}
+
+.titulo{
+	font-family: 'Raleway', sans-serif;
+}
+.formularioContacto form{
+	font-family: 'Raleway', sans-serif;
+	text-align: left;
+	padding-top: 20px;
+	font-weight: 700;
+	float: left;
+	display: flex;
+	width: 50%;
+
+	
+
+}
+
+.direcciones {
+	font-family: 'Raleway', sans-serif;
+	font-size: 20px;
+	padding: 40%;
+	display: flex;
+	width: 50%;
+	
+}
+
+.mapa {
+	align-self: right;
+	display: flex;
+	width: 50%;
+	padding: 40%;
+}
