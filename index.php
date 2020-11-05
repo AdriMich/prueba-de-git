@@ -19,6 +19,7 @@
 		<img src="Sin título-1.png" alt="FotoMia">
 	
 <div class="sobreMi">
+<h1>Sobre mí</h1>
 	<article>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur consectetur numquam est, enim placeat, ipsa blanditiis id, quibusdam perferendis animi obcaecati! Quod consequatur, laboriosam consectetur tempore, atque vel veniam provident!</p>
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident ullam vero temporibus at, eaque recusandae impedit dolore, facere pariatur tempore odio dignissimos modi reprehenderit praesentium obcaecati minus quae illo. Sit?</p>
